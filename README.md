@@ -1,2 +1,2 @@
-# ilana's wise words
-no, no i will not update this, fuck off 
+# CB:RO Remastered
+A simple UiLib script with a well enough esp+aimlock functions.
