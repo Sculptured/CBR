@@ -1,15 +1,15 @@
 --Enjoy iguanaWare!
   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("iguanaWare", "Sentinel")
+    local Window = Library.CreateLib("iguanaWare", "DarkTheme")
     
     -- MAIN
     local Main = Window:NewTab("Main")
     
     
-    local MainSection = Main:NewSection("Aimbot")
+    local MainSection = Main:NewSection("AimLock")
 
     
-    MainSection:NewButton("Aimbot", "Aimbot How?????", function()
+    MainSection:NewButton("AimLock", "Shitty made aimlock. only aims at head.", function()
 local dwCamera = workspace.CurrentCamera
 local dwRunService = game:GetService("RunService")
 local dwUIS = game:GetService("UserInputService")
@@ -88,7 +88,7 @@ dwRunService.RenderStepped:Connect(function()
 end)
     end)
     
-MainSection:NewSlider("Aimbot Smoothes", "Change The Smooth", 8, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+MainSection:NewSlider("aimlock Smoothes", "Change The Smoothness of the tracking.", 8, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
 
 end)
     
