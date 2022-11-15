@@ -1,6 +1,6 @@
---Enjoy iguanaWare!
+--i do not care!
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("iguanaWare", "DarkTheme")
+local Window = Library.CreateLib("ilana's shitty lua", "DarkTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
@@ -23,7 +23,7 @@ Aiming = false,
 Aimbot_AimPart = "Head",
 Aimbot_TeamCheck = true,
 Aimbot_Draw_FOV = true,
-Aimbot_FOV_Radius = 200,
+Aimbot_FOV_Radius = 75,
 Aimbot_FOV_Color = Color3.fromRGB(0,0,0)
 }
 
@@ -88,13 +88,13 @@ end
 end)
 end)
 
-MainSection:NewSlider("aimlock Smoothes", "Change The Smoothness of the tracking.", 8, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+MainSection:NewSlider("aimlock Snapping", "Change The rate the aimlock tracks someone", 8, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
 
 end)
 
     local MainSection = Main:NewSection("Fov")
 
-MainSection:NewButton("Fov", "Epic Fov", function()
+MainSection:NewButton("Field of View", "cringe Fov", function()
 -- // New version: See ./Aiming/SilentAim.lua
 
 if getgenv().ValiantAimHacks then return getgenv().ValiantAimHacks end
@@ -557,8 +557,8 @@ end)
     local MainSection = Main:NewSection("Esp")
 
 
-MainSection:NewButton("Esps", "He Esper!11!!11", function()
----Created By 0x83
+MainSection:NewButton("ESP/WH", "Decentish ESP", function()
+
 
 local lplr = game.Players.LocalPlayer
 local camera = game:GetService("Workspace").CurrentCamera
@@ -634,7 +634,7 @@ BoxOutline.Filled = false
 
 local Box = Drawing.new("Square")
 Box.Visible = false
-Box.Color = Color3.new(1,1,1)
+Box.Color = Color3.new(0,0,0)
 Box.Thickness = 1
 Box.Transparency = 1
 Box.Filled = false
@@ -680,7 +680,7 @@ end
 coroutine.wrap(boxesp)()
 end)
 
----Created By 0x83
+
 end)
 
 MainSection:NewButton("Tracers", "Like Esp", function()
@@ -694,7 +694,7 @@ _G.TeamCheck = true -- Use True or False to toggle TeamCheck
 for i,v in pairs(game.Players:GetChildren()) do
 local Tracer = Drawing.new("Line")
 Tracer.Visible = false
-Tracer.Color = Color3.new(1,1,1)
+Tracer.Color = Color3.new(0,0,0)
 Tracer.Thickness = 1
 Tracer.Transparency = 1
 
@@ -771,3 +771,5 @@ local SettingsSection = Settings:NewSection("Settings")
 SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightShift, function()
 Library:ToggleUI()
 end)
+
+SettingsSection:NewButton("ilana - the retarded skid")
