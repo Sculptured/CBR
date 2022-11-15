@@ -772,4 +772,4 @@ SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightShift
 Library:ToggleUI()
 end)
 
-SettingsSection:NewButton("ilana - the retarded skid")
+SettingsSection:NewButton("ilana - the retarded skid dev")
