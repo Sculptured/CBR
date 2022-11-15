@@ -1,6 +1,6 @@
---Enjoy BusWare!
+--Enjoy iguanaWare!
   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("ilana shitty gui", "synapse")
+    local Window = Library.CreateLib("iguanaWare", "Sentinel")
     
     -- MAIN
     local Main = Window:NewTab("Main")
@@ -24,7 +24,7 @@ local settings = {
     Aimbot_TeamCheck = true,
     Aimbot_Draw_FOV = true,
     Aimbot_FOV_Radius = 200,
-    Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
+    Aimbot_FOV_Color = Color3.fromRGB(0,0,0)
 }
 
 
@@ -479,7 +479,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Femboys-one/CBR/main/SA"))()
 
 -- // Hook
 mt.__namecall = newcclosure(function(...)
@@ -511,7 +511,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Femboys-one/CBR/main/SA"))()
 
 -- // Hook
 mt.__index = newcclosure(function(t, k)
